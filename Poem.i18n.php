@@ -378,6 +378,13 @@ $messages['lt'] = array(
 	'poem-desc' => 'Prideda <code>&lt;poem&gt;</code> gaires poemų formatavimui',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'poem-desc' => 'Hlahril tàrphung siamrem  nan tàrreuh  <code>&lt;poem&gt;</code>   hi a belh.',
+);
+
 /** Latvian (Latviešu)
  * @author Xil
  */
