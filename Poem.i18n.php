@@ -612,7 +612,7 @@ $messages['tg-cyrl'] = array(
 	'poem-desc' => 'Барчасби <code>&lt;poem&gt;</code>-ро барои қолаббандиҳои шеърҳо илова мекунад',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -661,7 +661,7 @@ $messages['vec'] = array(
 	'poem-desc' => 'Zonta el tag <code>&lt;poem&gt;</code> par la formatazion dei testi poetici',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
