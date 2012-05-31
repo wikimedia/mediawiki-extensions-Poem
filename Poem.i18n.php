@@ -230,6 +230,13 @@ $messages['frp'] = array(
 	'poem-desc' => 'Apond la balisa <code>&lt;poem&gt;</code> por lo formatâjo des poèmos.',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'poem-desc' => 'Saat <code>&lt;poem&gt;</code> diartu, am dachtangen tu formatiarin',
+);
+
 /** Galician (Galego)
  * @author Alma
  */
