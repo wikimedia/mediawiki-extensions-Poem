@@ -322,9 +322,10 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author JtFuruhata
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'poem-desc' => '詩の書式を整えるための <code>&lt;poem&gt;</code> タグを追加する',
+	'poem-desc' => '詩を整形する <code>&lt;poem&gt;</code> タグを追加する',
 );
 
 /** Jutish (Jysk)
