@@ -26,7 +26,7 @@ $messages['af'] = array(
 	'poem-desc' => "Maak 'n <code>&lt;poem&gt;</code> etiket beskikbaar vir die formatering van poësie",
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -82,7 +82,7 @@ $messages['bcc'] = array(
 	'poem-desc' => 'هورکنت <code>&lt;poem&gt;</code> برچسپء په فرمت شئر',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
@@ -160,7 +160,7 @@ $messages['diq'] = array(
 	'poem-desc' => 'qey fesaldayişê şiiri etiketê <code>&lt;poem&gt;</code>i têarê keno',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -237,7 +237,7 @@ $messages['frr'] = array(
 	'poem-desc' => 'Saat <code>&lt;poem&gt;</code> diartu, am dachtangen tu formatiarin',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  */
 $messages['gl'] = array(
@@ -277,7 +277,7 @@ $messages['hr'] = array(
 	'poem-desc' => 'Dodaje <code>&lt;poem&gt;</code> oznaku za formatiranje pjesama',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -528,7 +528,7 @@ $messages['ru'] = array(
 	'poem-desc' => 'Добавляет тег <code>&lt;poem&gt;</code> для форматирования стихов',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
