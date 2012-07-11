@@ -61,7 +61,7 @@ $messages['az'] = array(
 	'poem-desc' => 'Şeirlərin formatlaşdırılması üçün <code>&lt;poem&gt;</code> teqini əlavə edir',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -429,9 +429,7 @@ $messages['ms'] = array(
 	'poem-desc' => 'Menambah tag <code>&lt;poem&gt;</code> untuk pemformatan puisi',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'poem-desc' => 'Legger til taggen <code>&lt;poem&gt;</code> for å kunne formatere dikt',
 );
@@ -669,7 +667,7 @@ $messages['vec'] = array(
 	'poem-desc' => 'Zonta el tag <code>&lt;poem&gt;</code> par la formatazion dei testi poetici',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
