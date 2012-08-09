@@ -192,7 +192,7 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
-	'poem-desc' => 'Lisab <code>&lt;poem&gt;</code>-märgendi luuletuse vormindamiseks.',
+	'poem-desc' => 'Lisab <code>&lt;poem&gt;</code>-sildi luuletuse vormindamiseks.',
 );
 
 /** Basque (euskara)
