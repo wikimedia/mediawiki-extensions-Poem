@@ -82,7 +82,7 @@ $messages['bcc'] = array(
 	'poem-desc' => 'هورکنت <code>&lt;poem&gt;</code> برچسپء په فرمت شئر',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
@@ -429,7 +429,7 @@ $messages['ms'] = array(
 	'poem-desc' => 'Menambah tag <code>&lt;poem&gt;</code> untuk pemformatan puisi',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'poem-desc' => 'Legger til taggen <code>&lt;poem&gt;</code> for å kunne formatere dikt',
 );
@@ -448,7 +448,7 @@ $messages['nl'] = array(
 	'poem-desc' => 'Voegt de tag <code>&lt;poem&gt;</code> toe voor de opmaak van poëzie',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  */
 $messages['nn'] = array(
@@ -575,7 +575,7 @@ $messages['sq'] = array(
 	'poem-desc' => 'Vendosë kodin <code>&lt;poem&gt;</code> për formatim të poezive',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Millosh
  * @author Nikola Smolenski
  */
@@ -583,7 +583,7 @@ $messages['sr-ec'] = array(
 	'poem-desc' => 'Додаје <code>&lt;poem&gt;</code> ознаку за форматирање песама.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -695,7 +695,7 @@ $messages['yue'] = array(
 	'poem-desc' => '加 <code>&lt;poem&gt;</code> 標籤畀詩格式用',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Shinjiman
  * @author Wmr89502270
  * @author Xiaomingyan
@@ -704,7 +704,7 @@ $messages['zh-hans'] = array(
 	'poem-desc' => '添加“<code>&lt;poem&gt;</code>”标签用于诗歌格式',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
