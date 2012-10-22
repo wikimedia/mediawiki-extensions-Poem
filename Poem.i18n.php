@@ -251,7 +251,8 @@ $messages['gsw'] = array(
 	'poem-desc' => 'Fiegt s <code>&lt;poem&gt;</code>-Tag zue zum Formatiere vu Gedicht',
 );
 
-/** Hebrew (עברית) */
+/** Hebrew (עברית)
+ */
 $messages['he'] = array(
 	'poem-desc' => 'הוספת התגית <code>&lt;poem&gt;</code> לעיצוב שירה',
 );
@@ -429,7 +430,8 @@ $messages['ms'] = array(
 	'poem-desc' => 'Menambah tag <code>&lt;poem&gt;</code> untuk pemformatan puisi',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'poem-desc' => 'Legger til taggen <code>&lt;poem&gt;</code> for å kunne formatere dikt',
 );
@@ -710,4 +712,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'poem-desc' => '加入 <code>&lt;poem&gt;</code> 標籤給予詩歌格式使用',
 );
-
