@@ -387,7 +387,7 @@ $messages['lt'] = array(
 	'poem-desc' => 'Prideda <code>&lt;poem&gt;</code> gaires poemų formatavimui',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
