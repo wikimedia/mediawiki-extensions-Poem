@@ -343,6 +343,13 @@ $messages['jv'] = array(
 	'poem-desc' => 'Nambahaké tag <code>&lt;poem&gt;</code> tag kanggo formatting tembang utawa puisi',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'poem-desc' => 'ამატებს ტეგს <code>&lt;პოემა&gt;</code> ლექსების ფორმატირებისათვის',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
