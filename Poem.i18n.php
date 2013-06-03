@@ -437,7 +437,7 @@ $messages['ms'] = array(
 	'poem-desc' => 'Menambah tag <code>&lt;poem&gt;</code> untuk pemformatan puisi',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'poem-desc' => 'Legger til taggen <code>&lt;poem&gt;</code> for å kunne formatere dikt',
@@ -457,7 +457,7 @@ $messages['nl'] = array(
 	'poem-desc' => 'Voegt de tag <code>&lt;poem&gt;</code> toe voor de opmaak van poëzie',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  */
 $messages['nn'] = array(
