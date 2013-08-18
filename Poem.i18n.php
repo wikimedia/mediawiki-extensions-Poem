@@ -360,9 +360,10 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author ToePeu
+ * @author 아라
  */
 $messages['ko'] = array(
-	'poem-desc' => '시 형식을 위해 <code>&lt;poem&gt;</code> 태그를 추가',
+	'poem-desc' => '시 형식을 위해 <code>&lt;poem&gt;</code> 태그를 추가합니다',
 );
 
 /** Colognian (Ripoarisch)
