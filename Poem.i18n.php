@@ -403,10 +403,11 @@ $messages['lus'] = array(
 );
 
 /** Latvian (latviešu)
+ * @author Papuass
  * @author Xil
  */
 $messages['lv'] = array(
-	'poem-desc' => 'Pievieno <code>&lt;poem&gt;</code> tagu dzejas formatēšanai',
+	'poem-desc' => 'Pievieno <code>&lt;poem&gt;</code> iezīmi dzejas formatēšanai',
 );
 
 /** Macedonian (македонски)
