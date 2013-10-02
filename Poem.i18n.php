@@ -491,7 +491,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'poem-desc' => 'د شعر بڼه ورکولو کړنې لپاره د <tt>&lt;شعر&gt;</tt> وييکه ورګډوي',
+	'poem-desc' => 'د شعر بڼه ورکولو کړنې لپاره د <tt>&lt;شعر&gt;</tt> وييکه ورگډوي',
 );
 
 /** Portuguese (português)
