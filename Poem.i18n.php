@@ -131,7 +131,7 @@ $messages['ckb'] = array(
 	'poem-desc' => 'تاگی <code>&lt;poem&gt;</code> زێدەدەکات بۆ ڕێکخستنی ھۆنراوەکان',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
