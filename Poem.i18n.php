@@ -124,6 +124,13 @@ $messages['ca'] = array(
 	'poem-desc' => "Afegeix l'etiqueta <code>&lt;poem&gt;</code> per al formatatge  de poemes",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'poem-desc' => 'ТӀетуху тег <code>&lt;poem&gt;</code> дешнаш дӀадаха',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
