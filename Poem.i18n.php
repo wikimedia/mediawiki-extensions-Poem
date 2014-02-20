@@ -158,7 +158,7 @@ $messages['da'] = array(
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'poem-desc' => 'Aktiviert das Tag <code>&lt;poem&gt;</code> zur Formatierung von Gedichten',
+	'poem-desc' => 'Ergänzt das Tag <code>&lt;poem&gt;</code> zur Formatierung von Gedichten',
 );
 
 /** Zazaki (Zazaki)
