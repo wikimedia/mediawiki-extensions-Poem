@@ -566,6 +566,13 @@ $messages['scn'] = array(
 	'poem-desc' => 'Iunci lu tag <code>&lt;poem&gt;</code> pi la furmattazioni di li testa puetici',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'poem-desc' => 'Adds <code>&lt;poem&gt;</code> tag fr poem formattin',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
