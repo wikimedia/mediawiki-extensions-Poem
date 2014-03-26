@@ -570,7 +570,7 @@ $messages['scn'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'poem-desc' => 'Adds <code>&lt;poem&gt;</code> tag fr poem formattin',
+	'poem-desc' => 'Eiks <code>&lt;poem&gt;</code> tag fer poem formattin',
 );
 
 /** Slovak (slovenčina)
