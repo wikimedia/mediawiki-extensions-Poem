@@ -30,5 +30,4 @@ $dir = __DIR__ . '/';
 $wgParserTestFiles[] = $dir . 'poemParserTests.txt';
 $wgAutoloadClasses['Poem'] = $dir . 'Poem.class.php';
 $wgMessagesDirs['Poem'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Poem'] =  $dir . 'Poem.i18n.php';
 $wgHooks['ParserFirstCallInit'][] = 'Poem::init';
