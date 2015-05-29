@@ -23,5 +23,6 @@
 	},
 	"ParserTestFiles": [
 		"poemParserTests.txt"
-	]
+	],
+	"manifest_version": 1
 }
