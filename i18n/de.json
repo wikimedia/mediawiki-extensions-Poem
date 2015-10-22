@@ -6,5 +6,5 @@
 			"Raimond Spekking"
 		]
 	},
-	"poem-desc": "Ergänzt das Tag <code>&lt;poem&gt;</code> zur Formatierung von Gedichten"
+	"poem-desc": "Fügt dem Wiki das Tag <code>&lt;poem&gt;</code> zur Formatierung von Gedichten hinzu"
 }
