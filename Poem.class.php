@@ -6,7 +6,7 @@
 class Poem {
 	/**
 	 * Bind the renderPoem function to the <poem> tag
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 * @return bool true
 	 */
 	public static function init( &$parser ) {
@@ -19,7 +19,7 @@ class Poem {
 	 * @param string $in The text inside the poem tag
 	 * @param array $param
 	 * @param Parser $parser
-	 * @param boolean $frame
+	 * @param bool $frame
 	 * @return string
 	 */
 	public static function renderPoem( $in, $param = [], $parser = null, $frame = false ) {
