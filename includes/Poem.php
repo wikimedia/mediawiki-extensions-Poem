@@ -27,7 +27,7 @@ class Poem {
 		// which may not be desired in some cases
 		$newline = isset( $param['compact'] ) ? '' : "\n";
 
-		$tag = $parser->insertStripItem( "<br />", $parser->mStripState );
+		$tag = $parser->insertStripItem( "<br />" );
 
 		// replace colons with indented spans
 		$text = preg_replace_callback( '/^(:+)(.+)$/m', [ 'Poem', 'indentVerse' ], $in );
