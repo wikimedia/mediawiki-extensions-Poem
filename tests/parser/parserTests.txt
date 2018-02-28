@@ -140,3 +140,23 @@ test<br />
 </div>
 
 !! end
+
+!! test
+Basic <poem> usage with style
+!! input
+<poem style="border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;">
+A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+Through caverns measureless to man
+Down to a sunless sea.
+</poem>
+!! result
+<div style="border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;" class="poem">
+<p>A stately pleasure-dome decree:<br />
+Where Alph, the sacred river, ran<br />
+Through caverns measureless to man<br />
+Down to a sunless sea.
+</p>
+</div>
+
+!! end
