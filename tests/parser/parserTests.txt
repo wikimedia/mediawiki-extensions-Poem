@@ -68,7 +68,7 @@ text
 <div class="poem">
 <p>some<br />
 </p>
-<hr /><br />
+<hr />
 <p>text
 </p>
 </div>
