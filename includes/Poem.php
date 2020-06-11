@@ -35,12 +35,13 @@ class Poem {
 		$text = preg_replace_callback(
 			'/^(:++)(.+)$/m',
 			function ( array $matches ) {
-				$indention = strlen( $matches[1] );
+				$indentation = strlen( $matches[1] ) . 'em';
 				return Html::rawElement(
 					'span',
 					[
 						'class' => 'mw-poem-indented',
-						'style' => 'display: inline-block; margin-left: ' . $indention . 'em;'
+						'style' => 'display: inline-block; ' .
+							"margin-inline-start: $indentation;",
 					],
 					$matches[2]
 				);
