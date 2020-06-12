@@ -44,7 +44,7 @@ class Poem {
 		);
 
 		// replace spaces at the beginning of a line with non-breaking spaces
-		$text = preg_replace_callback( '/^( +)/m', [ self::class, 'replaceSpaces' ], $text );
+		$text = preg_replace_callback( '/^ +/m', [ self::class, 'replaceSpaces' ], $text );
 
 		$text = $parser->recursiveTagParse( $text, $frame );
 
@@ -67,11 +67,11 @@ class Poem {
 	/**
 	 * Callback for preg_replace_callback() that replaces spaces with non-breaking spaces
 	 * @param string[] $m Matches from the regular expression
-	 *   - $m[1] consists of 1 or more spaces
+	 *   - $m[0] consists of 1 or more spaces
 	 * @return string
 	 */
 	protected static function replaceSpaces( array $m ) {
-		return str_replace( ' ', '&#160;', $m[1] );
+		return str_repeat( '&#160;', strlen( $m[0] ) );
 	}
 
 	/**
