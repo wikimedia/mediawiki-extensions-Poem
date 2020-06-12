@@ -248,6 +248,18 @@ Multi-line poems with indentation use spans and breaks correctly (T235709)
 !! end
 
 !! test
+Indention syntax with no content
+!! wikitext
+<poem>
+::
+</poem>
+!! html/php
+<div class="poem">
+<dl><dd><dl><dd></dd></dl></dd></dl>
+</div>
+!! end
+
+!! test
 Poem with class
 !! wikitext
 <poem class="hiho">

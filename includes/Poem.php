@@ -32,7 +32,7 @@ class Poem {
 		$tag = $parser->insertStripItem( "<br />" );
 
 		// replace colons with indented spans
-		$text = preg_replace_callback( '/^(:+)(.+)$/m', [ self::class, 'indentVerse' ], $in );
+		$text = preg_replace_callback( '/^(:++)(.+)$/m', [ self::class, 'indentVerse' ], $in );
 
 		// replace newlines with <br /> tags unless they are at the beginning or end
 		// of the poem, or would directly follow exactly 4 dashes. See Parser::internalParse() for
