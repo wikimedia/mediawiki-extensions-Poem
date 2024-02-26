@@ -28,5 +28,20 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\Poem\\": "includes/"
 	},
+	"ParsoidModules": [ {
+		"name": "Poem",
+		"domProcessors": [
+			"MediaWiki\\Extension\\Poem\\Parsoid\\PoemProcessor"
+		],
+		"tags": [
+			{
+				"name": "poem",
+				"handler": "MediaWiki\\Extension\\Poem\\Parsoid\\Poem",
+				"options": {
+					"outputHasCoreMwDomSpecMarkup": true
+				}
+			}
+		]
+	} ],
 	"manifest_version": 2
 }

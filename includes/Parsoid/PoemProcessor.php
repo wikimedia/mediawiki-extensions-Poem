@@ -1,7 +1,7 @@
 <?php
 declare( strict_types = 1 );
 
-namespace Poem\Parsoid;
+namespace MediaWiki\Extension\Poem\Parsoid;
 
 use Wikimedia\Parsoid\DOM\Element;
 use Wikimedia\Parsoid\DOM\Node;

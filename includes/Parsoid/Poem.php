@@ -1,40 +1,15 @@
 <?php
 declare( strict_types = 1 );
 
-namespace Poem\Parsoid;
+namespace MediaWiki\Extension\Poem\Parsoid;
 
 use Wikimedia\Parsoid\DOM\DocumentFragment;
-use Wikimedia\Parsoid\Ext\ExtensionModule;
 use Wikimedia\Parsoid\Ext\ExtensionTagHandler;
 use Wikimedia\Parsoid\Ext\ParsoidExtensionAPI;
 use Wikimedia\Parsoid\Ext\PHPUtils;
 use Wikimedia\Parsoid\Utils\DOMCompat;
 
-class Poem extends ExtensionTagHandler implements ExtensionModule {
-
-	/** @inheritDoc */
-	public function getConfig(): array {
-		return [
-			'name' => 'Poem',
-			'domProcessors' => [
-				PoemProcessor::class,
-			],
-			'tags' => [
-				[
-					'name' => 'poem',
-					'handler' => self::class,
-					'options' => [
-						'outputHasCoreMwDomSpecMarkup' => true
-					],
-				]
-			]
-		];
-	}
-
-	public function __construct( ?ParsoidExtensionAPI $extApi = null ) {
-		/* The dom post processor doesn't need to use $extApi, so ignore it */
-	}
-
+class Poem extends ExtensionTagHandler {
 	/** @inheritDoc */
 	public function sourceToDom(
 		ParsoidExtensionAPI $extApi, string $content, array $extArgs
