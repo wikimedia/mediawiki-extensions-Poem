@@ -1,7 +1,7 @@
 <?php
 declare( strict_types = 1 );
 
-namespace Wikimedia\Parsoid\Ext\Poem;
+namespace Poem\Parsoid;
 
 use Wikimedia\Parsoid\DOM\DocumentFragment;
 use Wikimedia\Parsoid\Ext\ExtensionModule;
@@ -32,7 +32,6 @@ class Poem extends ExtensionTagHandler implements ExtensionModule {
 	}
 
 	public function __construct( ?ParsoidExtensionAPI $extApi = null ) {
-		/* @phan-suppress-previous-line PhanEmptyPublicMethod */
 		/* The dom post processor doesn't need to use $extApi, so ignore it */
 	}
 
@@ -77,7 +76,8 @@ class Poem extends ExtensionTagHandler implements ExtensionModule {
 					return $line;
 				}
 			}, $contentArray );
-			$content = implode( "\n", $contentMap ); // use faster? preg_replace
+			// TODO: Use faster? preg_replace
+			$content = implode( "\n", $contentMap );
 
 			// 4. above
 			// Split on <nowiki>..</nowiki> fragments.

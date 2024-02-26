@@ -1,7 +1,7 @@
 <?php
 declare( strict_types = 1 );
 
-namespace Wikimedia\Parsoid\Ext\Poem;
+namespace Poem\Parsoid;
 
 use Wikimedia\Parsoid\DOM\Element;
 use Wikimedia\Parsoid\DOM\Node;
@@ -54,7 +54,7 @@ class PoemProcessor extends DOMProcessor {
 			while ( $cc ) {
 				$next = $cc->nextSibling;
 				if ( $cc instanceof Text ) {
-					$pieces = preg_split( '/\n/', $cc->nodeValue );
+					$pieces = preg_split( '/\n/', $cc->nodeValue ?? '' );
 					$n = count( $pieces );
 					$nl = '';
 					for ( $i = 0;  $i < $n;  $i++ ) {
