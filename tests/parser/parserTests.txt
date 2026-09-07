@@ -282,8 +282,11 @@ hi ho
 <div class="poem hiho" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{"class":"hiho"},"body":{"extsrc":"\nhi ho\n"}}'><p>hi ho</p></div>
 !! end
 
+# T437234: disable tests until parsoid output is adapted
 !! test
 Poem with empty class
+!! options
+disabled
 !! wikitext
 <poem class="">
 hi ho
